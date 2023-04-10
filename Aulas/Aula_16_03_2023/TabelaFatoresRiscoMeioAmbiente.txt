@@ -1,0 +1,22 @@
+Tabela – Fatores de Riscos do Meio Ambiente do Trabalho
+
+CÓD.	FATOR DE RISCO
+FÍSICOS
+01.01.001	Infrassom e sons de baixa frequência
+01.01.002	Ruído contínuo ou intermitente (legislação previdenciária)
+01.01.003	Ruído impulsivo ou de impacto
+01.01.004	Ultrassom
+01.01.005	Campos magnéticos estáticos
+QUÍMICOS
+02.01.001	Acetaldeído (aldeído acético)
+02.01.002	Acetato de benzila
+02.01.003	Acetato de n-butila
+02.01.004	Acetato de sec-butila
+02.01.005	Acetato de terc-butila
+02.01.006	Acetato de 2-butoxietila
+ERGONÔMICOS – PSICOSSOCIAIS / COGNITIVOS
+04.05.001	Excesso de situações de estresse
+04.05.002	Situações de sobrecarga de trabalho mental
+04.05.003	Exigência de alto nível de concentração, atenção e memória
+
+FONTE: https://www.tributa.net/tabela-23-fatores-de-riscos-do-meio-ambiente-do-trabalho

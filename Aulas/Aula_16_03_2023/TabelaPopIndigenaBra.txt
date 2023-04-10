@@ -1,0 +1,14 @@
+Tabela: População residente, segundo a situação do domicílio e condição de indígena – Brasil 1991/2010
+
+		1991		2000		2010
+Total(1)	146.815.790	169.872.856	190.755.799
+Não indígena	145.986.780	167.932.053	189.931.228
+Indígena	294.131	734.127	817.963
+Urbana(1)	110.996.829	137.925.238	160.925.792
+Não indígena	110.494.732	136.620.255	160.605.299
+Indígena	71.026	383.298	315.180
+Rural(1)	35.818.961	31.947.618	29.830.007
+Não indígena	35.492.049	31.311.798	29.325.929
+Indígena	223.105	350.829	502.783
+
+FONTE: IBGE, Censo Demográfico 1991/2010. https://indigenas.ibge.gov.br/graficos-e-tabelas-2.html
