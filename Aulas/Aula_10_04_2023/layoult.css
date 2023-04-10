@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+
+/*Estilo do cabeçalho*/
+
+.header{
+    background-color: #46e093;
+    padding: 10px;
+    text-align: center;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+}
+
+.row{
+    background-color: bisque;
+    padding: 100px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*
+.row:after{
+    background-color: blue;
+    padding: 100px;
+    content: "";
+    display: table;
+    clear: both;
+    width:1000px;
+}
+*/
+
+/*Faz um Query (consulta) ao navegador para saber qual o tamanho da tela*/
+@media screen and (max-width: 600px){
+    .column{
+        width: 100%;
+    }
+}
+
+.footer{
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+}
