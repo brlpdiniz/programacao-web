@@ -1,0 +1,25 @@
+p{
+    color: green;
+}
+
+
+#meuP{              /*      id = #        */
+    color: yellow;
+}
+
+.centralizado{
+    background-color: lightblue;
+    text-align: center;
+}
+
+.coxa{
+    color: green;
+}
+
+.athletico{
+    color: red;
+}
+
+.ofec{
+    color: purple;
+}
