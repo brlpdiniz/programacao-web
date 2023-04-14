@@ -1,0 +1,13 @@
+    <head>
+        <link href="/home/brlpdiniz/Documentos/code/git/programacao-web/ED_BULLYING_BuildLinux/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <img src="/home/brlpdiniz/Documentos/code/git/programacao-web/ED_BULLYING_BuildLinux/assets/brasaoCivil.jpg" width="450" height="300">
+       	<!-- <img src="./ED_BULLYING/assets/pc_pr.png" width="750" height="300"> -->
+        <div class="menu"> <!--Menu-->
+              <a href="/home/brlpdiniz/Documentos/code/git/programacao-web/ED_BULLYING_BuildLinux/index/Formulario.html">FORMULÁRIO</a>
+              <a href="/home/brlpdiniz/Documentos/code/git/programacao-web/ED_BULLYING_BuildLinux/index/Proposta.html">PROPOSTA</a>
+              <div class="img2">
+                    <img src="/home/brlpdiniz/Documentos/code/git/programacao-web/ED_BULLYING_BuildLinux/assets/CampanhaBullying.png" width="400" height="250">
+              </div>
+</html>

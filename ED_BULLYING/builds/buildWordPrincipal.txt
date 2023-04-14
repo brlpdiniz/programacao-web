@@ -1,16 +1,14 @@
 <html>
     <head>
-        <title>Boletim Ocorrência - Bullying</title>
-        <!--Faz com que o tamanho da tela seja igual ao tamanho do 'device', caso o professor abra o site pelo celular-->
+
         <link href="..\css\style.css" rel="stylesheet">
 
     </head>
     <body>
-        <div class="header">
-            <div class="center">
+
                 <div class="logo"> <!--Logo-->
                     <img src="..\assets\brasaoCivil.jpg" width="450" height="300">
-                    <!-- <img src="./ED_BULLYING/assets/pc_pr.png" width="750" height="300"> -->
+                    <!-- <img src="..\ED_BULLYING\assets\pc_pr.png" width="750" height="300"> -->
                     <br>
                     <h1 align="center">Boletim de Ocorrência - Bullying</h1>
                     <br>
@@ -23,8 +21,3 @@
                     <div class="img2">
                         <img src="..\assets\CampanhaBullying.png" width="400" height="250">
                     </div>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
