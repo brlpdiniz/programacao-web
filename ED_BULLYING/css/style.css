@@ -16,9 +16,10 @@
 
 html,body{
     border-width:6px;
-    border-style: solid;
+    border-style: dotted;
     height:100%;
     overflow-y: hidden; /*Esconde a barra "scroll" da página*/
+    background-color: #d6d2d2;
 }
 
 header{
@@ -32,7 +33,7 @@ header{
 }
 
 .menu{
-    padding-right: 50px;
+    padding-right: auto;
     padding-top:150px;
     width:50%;
     text-align: right;
@@ -68,9 +69,9 @@ a:hover {
 
 table{
     background-color: blue;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
-    border-width: 10px;
+    border-width: 8px;
     border-style: solid;
 }
 
@@ -80,18 +81,20 @@ table{
 }
 
 .centerForm{    /*Controla as dim*/
-    display: flex;
+    display: block;
     flex-wrap: wrap; /*para poder manipular as dimensões,  no-wrap = padrão*/
-    max-width:1350px;
-    margin:0 auto;
-    padding:1% 30%;
+    max-width: 550px;
+    padding: auto;
+    margin: auto;
     text-align:center;
+    background-color: pink;
 }
 
 #htmlForm,#bodyForm{
-    background-color: yellow;
-    border-width:6px;
-    border-style: solid;
-    height:100%;
-    overflow-y: hidden; /*Esconde a barra "scroll" da página*/
+    border-width:8px;
+    border-style:dotted;
+}
+
+#divTitulo{
+    text-align: center;
 }
