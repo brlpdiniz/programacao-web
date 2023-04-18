@@ -39,7 +39,6 @@ body{
 header{
     padding: 40px;
 }
-
 .orgPrincipal{
     display: flex;
     flex-wrap: wrap; /*para poder manipular as dimensões,  no-wrap = padrão*/
