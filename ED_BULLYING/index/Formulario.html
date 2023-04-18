@@ -1,146 +1,133 @@
 <!DOCTYPE html>
-<html id="htmlForm">
+<html class="htmlForm">
     <head>
         <meta charset="utf-8">
         <!--Faz com que o tamanho da tela seja igual ao tamanho do 'device', caso o professor abra o site pelo celular-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <link href="..\css\style.css" rel="stylesheet"> 
     </head>
-    <body id="bodyForm">
+    
+    <body class="bodyForm">
         <div id="divTitulo">
-            <h1>BOLETIM DE OCORRÊNCIA DE BULLYING</h1>
             <br>
+            <h1>FORMULÁRIO - BOLETIM DE OCORRÊNCIA (BULLYING)</h1>
             <br>
         </div>
-         <div class="centerForm">
+         <!--
+            <div class="centerForm">*/
+         -->
+        <div class="center">
             <form action="mailto:brunoldiniz14@gmail.com">
                 <table>
-                    <div>
-                        <tr>
-                            <td>
-                                <h2 id="titulotabela">Dados da Vítima</h2>
-                                <br>
-                                <p><b>1.Nome completo: </b></p>
-                                <input type="text" size="40" placeholder="Nome completo">
-                            </td>
-                        </tr>
-                    </div>
-                    <div>
-                        <tr>                                
-                            <td>
-                                <p><b>2.Data de nascimento: </b></p>
-                                <input type="date" min="1900-01-01">
-                            </td>
-                        </tr>
-                    </div>
-                    <div>
-                        <tr>                                
-                            <td>
-                                <p><b>3.Endereço: </b></p>
-                                    <input type="text" size="60" placeholder="Endereço Residencial">
-                             </td>
-                        </tr>
-                    </div>
-                    <div>
-                        <tr>
-                            <td>
-                                <p><b>4.Telefone: </b></p>
-                                <input type="text" size="60" placeholder="Telefone">
-                            </td>
-                        </tr>
-                    </div>
-                    <div>
-                        <tr>
-                            <td>
-                                <p><b>5.E-mail: </b></p>
-                                <input type="text" size="60" placeholder="E-mail">
-                            </td>
-                        </tr>
-                    </div>
-                    <div>
-                        <tr>
-                            <td>
-                                <h2 id="titulotabela">Dados do Agressor</h2>
-                                <br>
-                                <p><b>1.Nome completo: </b></p>
-                                <input type="text" size="40" placeholder="Nome completo">
-                            </td>
-                        </tr>
-                    </div>
-                    <div>
-                        <tr>
-                            <td>
-                                <p><b>2.Data de nascimento: </b></p>
-                                <input type="date" min="1900-01-01">
-                            </td>
-                        </tr>
-                    </div>
-                    <div>
-                        <tr>
-                            <td>
-                                <p><b>3.Endereço: </b></p>
+                    <tr>
+                        <td>
+                             <h2 id="tituloTabela">Dados da Vítima</h2>
+                            <br>
+                            <p><b>1.Nome completo: </b></p>
+                            <input type="text" size="60" placeholder="Nome completo">
+                        </td>
+                    </tr>
+                    <tr>                                
+                        <td>
+                            <br>
+                            <p><b>2.Data de nascimento: </b></p>
+                            <input type="date" min="1900-01-01">
+                        </td>
+                    </tr>
+                    <tr>                                
+                        <td>
+                            <br>
+                            <p><b>3.Endereço: </b></p>
                                 <input type="text" size="60" placeholder="Endereço Residencial">
-                            </td>
-                        </tr>
-                    </div>
-                    <div>
-                        <tr>
-                            <td>
-                                <p><b>4.Telefone: </b></p>
-                                <input type="text" size="60" placeholder="Telefone">
-                            </td>
-                        </tr>
-                    </div>
-                    <div>
-                        <tr>
-                            <td>
-                                <p><b>5.E-mail: </b></p>
-                                <input type="text" size="60" placeholder="E-mail">
-                            </td>
-                        </tr>
-                     </div>
-                     <div>
-                        <tr>
-                            <td>
-                                <h2 id="titulotabela">Descrição da Ocorrência: </h2>
-                            </td>
-                        </tr>
-                    </div>
-                    <div>
-                        <tr>
-                            <td>
-                                <p><b>1.Data da ocorrência: </b></p>
-                                <input type="">
-                            </td>
-                        </tr>
-                     </div>
-                    <div>
-                        <tr>
-                            <td>
-                                <p><b>2.Horário da ocorrência: </b></p>
-                                <input type="">
-                            </td>
-                        </tr>
-                    </div>
-                    <div>
-                        <tr>
-                            <td>
-                                <p><b>3.Local da ocorrência: </b></p>
-                                <input type="">
-                            </td>
-                        </tr>
-                    </div>
-                    <div>
-                        <tr>
-                            <td>
-                                <p><b>4.Descrição da ocorrência: </b></p>
-                                <input type="">
-                            </td>
-                        </tr>
-                    </div>
+                         </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>4.Telefone: </b></p>
+                            <input type="text" size="60" placeholder="Telefone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>5.E-mail: </b></p>
+                            <input type="text" size="60" placeholder="E-mail">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <h2 id="tituloTabela">Dados do Agressor</h2>
+                            <br>
+                            <p><b>1.Nome completo: </b></p>
+                            <input type="text" size="60" placeholder="Nome completo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>2.Data de nascimento: </b></p>
+                            <input type="date" min="1900-01-01">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>3.Endereço: </b></p>
+                            <input type="text" size="60" placeholder="Endereço Residencial">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>4.Telefone: </b></p>
+                            <input type="text" size="60" placeholder="Telefone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>5.E-mail: </b></p>
+                            <input type="text" size="60" placeholder="E-mail">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <h2 id="tituloTabela">Descrição da Ocorrência: </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>1.Data da ocorrência: </b></p>
+                            <input type="" size="60" placeholder="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>2.Horário da ocorrência: </b></p>
+                            <input type="" size="60" placeholder="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>3.Local da ocorrência: </b></p>
+                            <input type="" size="60" placeholder="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>4.Descrição da ocorrência: </b></p>
+                            <input type="" size="60" placeholder="">
+                        </td>
+                    </tr>
                 </table>
             </form>
         </div>
     </body>
 </html>
-
