@@ -15,14 +15,25 @@
     text-align:center;
 }
 
-html,body{
-    border-width:6px;
+html{
+    border-width:4px;
     border-style: dotted;
+    /*background-color: #d6d2d2;*/
     width: auto;
     height: auto;
-    overflow-y: hidden; /*Esconde a barra "scroll" da página
-    /*background-color: #d6d2d2;*/
+    overflow-y: hidden; /*Esconde a barra "scroll" da página*/
     background: linear-gradient(#d1c6d1,#d1c6c6,#c6d1c6,#c6d1d1);
+}
+
+body{
+    /*background-color: #d6d2d2;*/
+    width: auto;
+    max-height: auto;
+    height: auto;
+    overflow-y: hidden; /*Esconde a barra "scroll" da página*/
+    background: linear-gradient(#d1c6d1,#d1c6c6,#c6d1c6,#c6d1d1);
+    border-width:4px;
+    border-style: dotted;
 }
 
 header{
@@ -32,7 +43,9 @@ header{
 .orgPrincipal{
     display: flex;
     flex-wrap: wrap; /*para poder manipular as dimensões,  no-wrap = padrão*/
-    max-width: 1300px;
+    max-width: auto;
+    width: auto;
+    height: auto;
     margin:0 auto;
     padding:0 2%;
 }
@@ -45,7 +58,7 @@ header{
 
 #img1{
     width: 450px;
-    height: 300px;
+    height: 450px;
 }
 
 .menu{
@@ -72,19 +85,9 @@ a:hover {
 }
 
 #img2{
-    padding-top:60px;
+    padding-top:40px;
     text-align: center;
-    padding-right: 40px;
 }
-
-#img3{
-    width: 800px;
-    height: auto;
-    padding-top: 10px;
-    padding-left: 200px;
-    margin-left: 170px;
-}
-
 
 table{
     padding: 15px;
@@ -119,4 +122,20 @@ table{
 #orgProposta{
     background: linear-gradient(#C9CDC9,#CFC7CF,#C9CDC9,#D1C6CD,#C9CDC9,#D2C4CD,#D4C2CE);
     text-align: center;
+}
+
+#bodyProposta{
+    /*background-color: #d6d2d2;*/
+    width: auto;
+    max-height: auto;
+    height: auto;
+    overflow-y: visible; /*Mostra a barra "scroll" da página*/
+    background: linear-gradient(#d1c6d1,#d1c6c6,#c6d1c6,#c6d1d1);
+}
+
+#img3{
+    width: auto;
+    height: auto;
+    margin-left: 28%;
+    border: solid;
 }
