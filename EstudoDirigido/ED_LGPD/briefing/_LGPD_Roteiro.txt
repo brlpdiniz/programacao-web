@@ -1,32 +1,26 @@
-Página inicial:
 Título: Lei Geral de Proteção de Dados Pessoais (LGPD)
 Introdução: breve descrição do que é a LGPD e sua importância
 Menu de navegação: para as outras páginas do site
 Imagem relacionada ao tema
-Hiperlinks para notícias e artigos relacionados ao tema
-Rodapé com informações de direitos autorais e fontes utilizadas
 
-Página sobre a LGPD:
-Título: O que é a LGPD?
-Descrição detalhada da lei e suas principais medidas previstas
-Tabela comparativa entre a LGPD e outras leis de proteção de dados ao redor do mundo
-Hiperlinks para recursos adicionais sobre a LGPD
-Rodapé com informações de direitos autorais e fontes utilizadas
+Página 1: Introdução à LGPD
+Nesta página, explicaremos o que é a LGPD e qual é a sua finalidade. 
+Também forneceremos informações sobre os principais conceitos e definições da LGPD.
 
-Página de requisitos da LGPD:
-Título: Requisitos da LGPD
-Lista de requisitos legais da LGPD, como consentimento explícito para o tratamento de dados, direito dos titulares de acessar, corrigir e excluir seus dados e responsabilidade das empresas pela proteção dos dados que coletam
-Tabela com exemplos de como a LGPD pode ser aplicada na prática
-Hiperlinks para recursos adicionais sobre a LGPD
-Rodapé com informações de direitos autorais e fontes utilizadas
+Página 2: Princípios da LGPD
+Nesta página, discutiremos os sete princípios da LGPD, que estabelecem as bases para o tratamento de dados pessoais no Brasil. Esses princípios são: finalidade, adequação, necessidade, livre acesso, qualidade dos dados, transparência e segurança.
 
-Página de recursos:
-Título: Recursos sobre a LGPD
-Guia prático sobre como cumprir a LGPD
-Modelo de política de privacidade
-Informações sobre consultorias especializadas em LGPD
-Hiperlink para artigos e notícias relacionados ao tema
-Rodapé com informações de direitos autorais e fontes utilizadas
+Página 3: Direitos dos Titulares dos Dados
+Nesta página, falaremos sobre os direitos dos titulares dos dados, que são os indivíduos cujos dados pessoais são coletados, processados e armazenados. Os direitos dos titulares incluem o direito de acesso, retificação, exclusão, portabilidade e revogação do consentimento.
+
+Página 4: Responsabilidades das Empresas
+Nesta página, abordaremos as responsabilidades das empresas que coletam, processam e armazenam dados pessoais. Essas responsabilidades incluem a nomeação de um encarregado de proteção de dados, a adoção de medidas de segurança adequadas e a notificação de violações de dados pessoais.
+
+Página 5: Conformidade com a LGPD
+Nesta página, discutiremos como as empresas podem se tornar conformes com a LGPD, que inclui a realização de uma avaliação de impacto à proteção de dados, a implementação de medidas técnicas e organizacionais e a criação de políticas e procedimentos adequados.
+
+Página 6: Fale Conosco
+Nesta página, os visitantes podem enviar perguntas e dúvidas sobre a LGPD através de um formulário. Nós responderemos rapidamente com as informações necessárias.
 
 Formulário "fale conosco" para envio de dúvidas e sugestões
 

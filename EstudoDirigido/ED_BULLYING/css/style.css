@@ -138,3 +138,14 @@ table{
     margin-left: 28%;
     border: solid;
 }
+
+/*Label 7.Danos Causados*/
+#DanosCausados{
+    font-size: small;
+    font-weight: bold;
+}
+
+/*Botao ENVIAR*/
+#enviar{
+    text-align: center;
+}

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,34 +7,50 @@
     </head>
     <form action="mailto:bruno.diniz1@utp.edu.br">
         <input type="text" placeholder="Seu Aniversário" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}">
+        
         <!--Campo para inserir texto-->
         <input type="text" placeholder="Digite seu nome">
+        
         <!--Campo para inserir data-->
         <input type="date" min="2023-01-01" max="2023-12-31">
+        
         <!--Botão de reset - para limpar o campo-->
         <input type="reset">
+        
         <!--Texto invisível, faz parte do código, mas não aparece para o usuario-->
         <input type="hidden">
+        
         <!--Texto para senhas (aparecem bolinhas)-->
         <input type="password">
+        
         <!--Abre o botão para Escolher Arquivo-->
         <input type="file" accept="image/png, image/jpeg">
-        <!---->
+        
+        <!--VOLUME-->
         <input type="range">
+        
         <!--Contador de número, vai mostrar no min-2 e no max17-->
         <input type="number" min="-2" max="17">
+        
         <!--Mostra a Hora e Minuto-->
         <input type="time">
+        
         <!--Campo somente para leitura-->
         <input type="text" readonly placeholder="Somente Leitura">
+        
         <!--Campo OBRIGATÓRIO-->
         <input type="text" required placeholder="Campo Obrigatório">
-        <!---->
+        
+        <!--Botão de ENVIAR-->
         <input type="submit" value="Enviar">
+        
         <!--O que vai dentro do pattern = Expressão Regular (RegEX)-->
-        <input type="text" pattern="[A-Za-z0-9]">   <!-- Aceita de A-Z, a-z, 0-9 -->]
+        <input type="text" pattern="[A-Za-z0-9]">   
+        <!-- Aceita de A-Z, a-z, 0-9 -->]
+        
         <!--Aceita de 0-9 em 3 campos, exemplo: 5 3 9 -->
         <input type="text" pattern="[0-9]{3}">
+        
         <!--Expressoa regular do cpf-->
         <input type="text" placeholder="Seu CPF: vvv.xxx.yyy-zz" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}">
     </form>

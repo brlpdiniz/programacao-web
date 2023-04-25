@@ -37,11 +37,19 @@ Descrição do incidente: _____________________
 
 Testemunhas: ______________________________
 
-Danos causados
-[] Físicos
-[] Emocionais
-[] Sociais
-[] Outros: ____________________________________
+
+    Danos causados
+
+[] Danos emocionais
+[] Danos físicos
+[] Danos acadêmicos
+[] Danos sociais
+[] Danos psicológicos
+[] Danos financeiros
+[] Danos à autoimagem
+[] Danos ao desenvolvimento social
+[] Danos ao bem-estar geral
+
 
 Informações adicionais
 
