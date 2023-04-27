@@ -15,25 +15,30 @@
     text-align:center;
 }
 
+.centerGPD2{
+    display: flex;
+    flex-wrap: wrap; /*para poder manipular as dimensões,  no-wrap = padrão*/
+    width: 580px;
+    height: auto;
+    margin:0 auto;
+    padding: 10px;
+    text-align:center;
+}
+
 html{
     border-width:4px;
     border-style: dotted;
+    border-width: auto;
     /*background-color: #d6d2d2;*/
-    width: auto;
-    height: auto;
-    overflow-y: hidden; /*Esconde a barra "scroll" da página*/
-    background: linear-gradient(#d1c6d1,#d1c6c6,#c6d1c6,#c6d1d1);
+    /*overflow-y: hidden; Esconde a barra "scroll" da página*/
 }
 
 body{
     /*background-color: #d6d2d2;*/
-    width: auto;
-    max-height: auto;
-    height: auto;
+    height: 100%;
+    min-height: 99vh;
     overflow-y: hidden; /*Esconde a barra "scroll" da página*/
     background: linear-gradient(#d1c6d1,#d1c6c6,#c6d1c6,#c6d1d1);
-    border-width:4px;
-    border-style: dotted;
 }
 
 header{
@@ -44,7 +49,6 @@ header{
     display: flex;
     flex-wrap: wrap; /*para poder manipular as dimensões,  no-wrap = padrão*/
     max-width: auto;
-    width: auto;
     height: auto;
     margin:0 auto;
     padding:0 2%;
@@ -96,16 +100,25 @@ a:hover {
 
 .htmlForm{
     overflow-y: visible;
-    width: auto;
     height: auto;
     border-width:4px;
     border-style:dotted;
 }
 
 .bodyForm{
+    padding: 0 15%;
     overflow-y: visible;
     border-width:4px;
     border-style:dotted;
+}
+
+@media (max-width: 1200px) {
+    .bodyForm{
+        padding: 0 18%;
+        overflow-y: visible;
+        border-width:4px;
+        border-style:dotted;
+    }
 }
 
 #divTitulo{
@@ -119,7 +132,6 @@ a:hover {
 
 #bodyProposta{
     /*background-color: #d6d2d2;*/
-    width: auto;
     max-height: auto;
     height: auto;
     overflow-y: visible; /*Mostra a barra "scroll" da página*/
@@ -127,7 +139,6 @@ a:hover {
 }
 
 #img3{
-    width: auto;
     height: auto;
     margin-left: 28%;
     border: solid;
@@ -148,14 +159,12 @@ a:hover {
     color: black;
     text-decoration: none;
     font-weight: bold;
-    margin-right: 30px;
+    margin-right: 20px;
     border-width: 4px;
-    border-style: solid;
-    border-top-color: #DFDFDF;
-    border-right-color: #666;
-    border-bottom-color: #333;
-    border-left-color: #858585;
+    margin-top: 30px;
+    background: linear-gradient(#d1c6d1,#d1c6c6,#c6d1c6,#c6d1d1);
 }
+
 
 .menu2{
     padding-top: 20px;
@@ -164,6 +173,7 @@ a:hover {
 }
 
 #header2{
+    height: auto;
     padding: 20px;
 }
 
@@ -175,36 +185,14 @@ a:hover {
     font-style: italic;
 }
 
-#imagemCenter{
-    margin-right: 50px;
-    text-align: center;
-    width: auto;
-    height: auto;
-}
-
-#subH3{
-    font-style: italic;
-    text-align: justify;
-    margin-left: 25%;
-    width: 50%;
-}
-
 .centerGPD1{
-    width: auto;
-    height: auto;
-    padding: 10px;
-    text-align: center;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 0 auto;
 }
 
 table{
-    margin-left: 25%;
-    width: 50%;
     height: auto;
     padding: 10px;
     padding-bottom: 25px;
-    text-align: left;
     border-width: 8px;
     border-style: solid;
 }
@@ -215,8 +203,6 @@ tr{
 
 td{
     padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
     text-align: justify;
 }
 
@@ -227,14 +213,10 @@ th{
 }
 
 #justificar{
-    margin-left: 25%;
-    width: 50%;
     text-align: justify;
 }
 
 #centralizar{
-    margin-left: 25%;
-    width: 50%;
     text-align: center;
 }
 
@@ -243,45 +225,104 @@ th{
     text-decoration: none;
     font-weight: bold;
     margin-right: 30px;
-    border-width: 4px;
-    border-style: solid;
-    border-top-color: #DFDFDF;
-    border-right-color: #666;
-    border-bottom-color: #333;
-    border-left-color: #858585;
 }
 
 .menuPrinc{
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 25px;
     margin-bottom: 25px;
     margin-top: 30px;
-    width:50%;
-    margin-left: 25%;
     border-width: 3px;
     border-style:dashed;
     background: linear-gradient(#d1c6d1,#d1c6c6,#c6d1c6,#c6d1d1);
+}
+
+#subH3{
+    font-style: italic;
+    text-align: justify;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #subH3b{
     border-width: 3px;
     border-style:dashed;
     background: linear-gradient(#d1c6d1,#d1c6c6,#c6d1c6,#c6d1d1);
-    width:50%;
-    margin-left: 25%;
     padding-top: 15px;
     padding-bottom: 15px;
-}
-
-a:hover {
-    color: rgb(214, 32, 32);
 }
 
 ul{
-    width:45%;
-    margin-left: 28%;
+    margin-left: 5%;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: justify;
+}
+
+#imagemCenterLGPD{
+    width: 910px;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 25px;
+    text-align: left;
+}
+
+.btn {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 42px;
+    border: none;
+    background: linear-gradient(#999099);
+  }
+  .btn:hover {
+    color: black;
+    background: transparent;
+    box-shadow:none;
+  }
+  .btn:before,
+  .btn:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: black;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn:hover:before,
+  .btn:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  input, input[type="text"], input[type="search"], isindex, textarea, button {
+	outline:none;
+	margin:0 auto;
+	padding:5px 10px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
 }
