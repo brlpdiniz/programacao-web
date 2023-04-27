@@ -89,13 +89,6 @@ a:hover {
     text-align: center;
 }
 
-table{
-    padding: 15px;
-    text-align: left;
-    border-width: 8px;
-    border-style: solid;
-}
-
 #tituloTabela{
     text-decoration: underline;
     text-align: center;
@@ -170,10 +163,6 @@ table{
     text-align: center;
 }
 
-a:hover {
-    color: rgb(214, 32, 32);
-}
-
 #header2{
     padding: 20px;
 }
@@ -183,6 +172,7 @@ a:hover {
     margin-top: 50px;
     margin-left: 65px;
     text-align: center;
+    font-style: italic;
 }
 
 #imagemCenter{
@@ -190,4 +180,108 @@ a:hover {
     text-align: center;
     width: auto;
     height: auto;
+}
+
+#subH3{
+    font-style: italic;
+    text-align: justify;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.centerGPD1{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+table{
+    margin-left: 25%;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 25px;
+    text-align: left;
+    border-width: 8px;
+    border-style: solid;
+}
+
+tr{
+    text-align: center;
+}
+
+td{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+th{
+    padding-top: 15px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+#justificar{
+    margin-left: 25%;
+    width: 50%;
+    text-align: justify;
+}
+
+#centralizar{
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+.menuPrinc a{        /*Os links que estão dentro do menu*/
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+    border-width: 4px;
+    border-style: solid;
+    border-top-color: #DFDFDF;
+    border-right-color: #666;
+    border-bottom-color: #333;
+    border-left-color: #858585;
+}
+
+.menuPrinc{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    width:50%;
+    margin-left: 25%;
+    border-width: 3px;
+    border-style:dashed;
+    background: linear-gradient(#d1c6d1,#d1c6c6,#c6d1c6,#c6d1d1);
+}
+
+#subH3b{
+    border-width: 3px;
+    border-style:dashed;
+    background: linear-gradient(#d1c6d1,#d1c6c6,#c6d1c6,#c6d1d1);
+    width:50%;
+    margin-left: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a:hover {
+    color: rgb(214, 32, 32);
+}
+
+ul{
+    width:45%;
+    margin-left: 28%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: justify;
 }

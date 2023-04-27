@@ -1,0 +1,219 @@
+<!--
+    1.  Princípios: 
+A Lei Geral de Proteção de Dados (LGPD) é uma lei brasileira que entrou em vigor em setembro de 2020. 
+Tendo como objetivo proteger os direitos fundamentais de privacidade e liberdade dos cidadãos, estabelecendo regras para o tratamento de dados pessoais pelas empresas e organizações.
+
+Os princípios da LGPD são:
+
+Princípio	        Descrição
+
+Finalidade	        Os dados pessoais devem ser coletados para propósitos específicos, explícitos e legítimos, e não podem ser usados para outros fins sem o consentimento do titular dos dados.
+Adequação	        a coleta de dados pessoais deve ser adequada, relevante e limitada ao mínimo necessário para atender à finalidade para a qual foram coletados.
+Necessidade	         os dados pessoais devem ser coletados somente na medida em que forem necessários para a finalidade pretendida.
+Livre acesso	    Os titulares dos dados têm direito a informações claras, precisas e acessíveis sobre o tratamento de seus dados pessoais.
+Qualidade dos dados	Os dados pessoais devem ser exatos, atualizados e, quando necessário, corrigidos.
+Transparência	    As empresas e organizações devem informar aos titulares de dados sobre o tratamento de seus dados pessoais.
+Segurança: medidas técnicas e administrativas devem ser adotadas para garantir a segurança dos dados pessoais e protegê-los contra acessos não autorizados, perda, destruição ou danificação.
+-->
+
+<!DOCTYPE html>
+<html class="htmlForm">
+    <head>
+        <meta charset="utf-8">
+        <!--Faz com que o tamanho da tela seja igual ao tamanho do 'device', caso o professor abra o site pelo celular-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link href="..\css\styleLGPD.css" rel="stylesheet"> 
+    </head>
+    
+    <body class="bodyForm">
+        <div id="divTitulo">
+            <br>
+            <h1>FORMULÁRIO - BOLETIM DE OCORRÊNCIA (BULLYING)</h1>
+            <br>
+        </div>
+         <!--
+            <div class="centerForm">*/
+         -->
+        <div class="center">
+            <form action="mailto:brunoldiniz14@gmail.com">
+                <table>
+                    <tr>
+                        <td>
+                            <br>
+                            <h2 id="tituloTabela">Dados da Vítima</h2>
+                            <br>
+                            <p><b>- Nome (Completo): </b></p>
+                            <input type="text" size="60" placeholder="Nome completo" pattern="[A-Za-z]" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>- CPF: </b></p>
+                            <input type="text" size="14" placeholder=" vvv.xxx.yyy-zz" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}">
+                        </td>
+                    </tr>
+                    <tr>                                
+                        <td>
+                            <br>
+                            <p><b>- Data de nascimento: </b></p>
+                            <input type="date" min="1900-01-01">
+                        </td>
+                    </tr>
+                    <tr>                                
+                        <td>
+                            <br>
+                            <p><b>- Endereço (Residencial): </b></p>
+                                <input type="text" size="60" placeholder=" ♦" required>
+                         </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>- Telefone (Para Contato): </b></p>
+                            <input type="text" size="60" placeholder="📞" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>- E-mail: </b></p>
+                            <input type="text" size="60" placeholder=" ✉">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <hr>
+                            <br>
+                            <h2 id="tituloTabela">Descrição da Ocorrência: </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>- Nome do agressor: </b></p>
+                            <input type="text" size="60" pattern="[A-Za-z]" placeholder="Nome ou apelido" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>- Data da ocorrência: </b></p>
+                            <input type="date" min="1900-01-01">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>- Horário da ocorrência: </b></p>
+                            <input type="time">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>- Local da ocorrência: </b></p>
+                            <input type="text" size="60" placeholder="  ♦" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>- Descrição do incidente: </b></p>
+                            <textarea rows="10" cols="60" maxlength="500" name="descricao" required></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>- Testemunhas: </b></p>
+                            <textarea rows="5" cols="60" maxlength="500" pattern="[A-Za-z]" name="testemunhas" required></textarea>                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>- Danos causados: </b></p>
+                            <br>
+                            <input type="checkbox" id="emocional" name="emocional">
+                            <label id="DanosCausados" for="emocional">Emocional</label>
+                            <br>
+                            <input type="checkbox" id="fisico" name="fisico">
+                            <label id="DanosCausados" for="fisico">Físico</label>
+                            <br>
+                            <input type="checkbox" id="social" name="social">
+                            <label id="DanosCausados" for="social">Social</label>
+                            <br>
+                            <input type="checkbox" id="academico" name="academico">
+                            <label id="DanosCausados" for="academico">Acadêmico</label>
+                            <br>
+                            <input type="checkbox" id="psicologico" name="psicologico">
+                            <label id="DanosCausados" for="psicologico">Psicológico</label>
+                            <br>
+                            <input type="checkbox" id="financeiro" name="financeiro">
+                            <label id="DanosCausados" for="financeiro">Financeiro</label>
+                            <br>
+                            <input type="checkbox" id="autoimagem" name="autoimagem">
+                            <label id="DanosCausados" for="autoimagem">à Autoimagem</label>
+                            <br>           
+                            <input type="checkbox" id="bemEstar" name="bemEstar">
+                            <label id="DanosCausados" for="bemEstar">ao Bem-estar geral</label>
+                            <br>
+                            <input type="checkbox" id="DesenSocial" name="DesenSocial">
+                            <label id="DanosCausados" for="DesenSocial">ao Desenvolvimento social</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <hr>
+                            <br>
+                            <h2 id="tituloTabela">Informações Adicionais: </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>- Foi tomada alguma medida em relação ao incidente?</b></p>
+                            <br>
+                            <input type="radio" id="sim" name="sim" value="sim">
+                            <label id="DanosCausados" for="sim">Sim, descreva: </label>
+                            <br>
+                            <textarea rows="5" cols="60" maxlength="500" pattern="[A-Za-z0-9]" name="medidas"></textarea>                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <p><b>- Insira em anexo as provas do caso: </b></p>
+                            <br>
+                            <input type="file" accept="image/png, image/jpeg" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <br>
+                            <hr>
+                            <br>
+                            <p><b>- Assinatura da VÍTIMA ou RESPONSÁVEL:</b></p>
+                            <br>
+                            <p><b>________________</b></p>
+                            <br>
+                            <input type="datetime-local">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="enviar">
+                            <br>
+
+                            <br>
+                            <input type="submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
