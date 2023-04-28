@@ -54,12 +54,19 @@ header{
     padding:0 2%;
 }
 
+.centerGPD1{
+    width: 100%;
+    padding: 0 auto;
+}
+
+/*Formatação da logo inicial*/
 .logo{
     padding:50px;
     width:50%;
     text-align: center;
 }
 
+/*Config imagem 1*/
 #img1{
     width: 450px;
     height: 450px;
@@ -71,6 +78,7 @@ header{
     text-align: right;
 }
 
+/*Configura os itens do primeiro MENU*/
 .menu a{        /*Os links que estão dentro do menu*/
     color: black;
     text-decoration: none;
@@ -88,11 +96,13 @@ a:hover {
     color: rgb(214, 32, 32);
 }
 
+/*Config imagem 2*/
 #img2{
     padding-top:40px;
     text-align: center;
 }
 
+/*Config do titulo da tabela*/
 #tituloTabela{
     text-decoration: underline;
     text-align: center;
@@ -112,6 +122,7 @@ a:hover {
     border-style:dotted;
 }
 
+/*Config geral do bodyForm*/
 @media (max-width: 1200px) {
     .bodyForm{
         padding: 0 18%;
@@ -138,10 +149,17 @@ a:hover {
     background: linear-gradient(#d1c6d1,#d1c6c6,#c6d1c6,#c6d1d1);
 }
 
+/*Config imagem 3*/
 #img3{
     height: auto;
     margin-left: 28%;
     border: solid;
+}
+
+/*Config imagem 4*/
+#img4{
+    height: auto;
+    border-style:dashed;
 }
 
 /*Label 7.Danos Causados*/
@@ -155,6 +173,7 @@ a:hover {
     text-align: center;
 }
 
+/*Configura os itens do MENU 2*/
 .menu2 a{        /*Os links que estão dentro do menu*/
     color: black;
     text-decoration: none;
@@ -172,6 +191,7 @@ a:hover {
     text-align: center;
 }
 
+/*Cabeçalho 2*/
 #header2{
     height: auto;
     padding: 20px;
@@ -185,10 +205,7 @@ a:hover {
     font-style: italic;
 }
 
-.centerGPD1{
-    padding: 0 auto;
-}
-
+/*Formatação da tabela*/
 table{
     height: auto;
     padding: 10px;
@@ -212,10 +229,12 @@ th{
     text-align: center;
 }
 
+/*ID de justificar*/
 #justificar{
     text-align: justify;
 }
 
+/*ID de centralização*/
 #centralizar{
     text-align: center;
 }
@@ -227,6 +246,7 @@ th{
     margin-right: 30px;
 }
 
+/*Config do menu principal com gradiente 4 cores*/
 .menuPrinc{
     padding-top: 25px;
     padding-bottom: 25px;
@@ -244,6 +264,7 @@ th{
     padding-bottom: 15px;
 }
 
+/*Fundo gradiente dos menus*/
 #subH3b{
     border-width: 3px;
     border-style:dashed;
@@ -259,6 +280,7 @@ ul{
     text-align: justify;
 }
 
+/*centraliza imagem*/
 #imagemCenterLGPD{
     width: 910px;
     height: auto;
@@ -267,6 +289,7 @@ ul{
     text-align: left;
 }
 
+/*BOTÕES DO MENU*/
 .btn {
     color: #fff;
     font-family: 'Lato', sans-serif;
@@ -298,7 +321,7 @@ ul{
     top:0;
     right:0;
     height:2px;
-    width:0;
+    width: 100%;
     background: black;
     box-shadow:
      -1px -1px 5px 0px #fff,
@@ -318,11 +341,26 @@ ul{
     transition:800ms ease all;
   }
 
-  input, input[type="text"], input[type="search"], isindex, textarea, button {
+/*Campos INPUT do Formulário*/
+  input, input[type="text"] {
 	outline:none;
 	margin:0 auto;
 	padding:5px 10px;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+/*Botão Referências*/
+.sombreado{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-width: 4px;
+    border-style: solid;
+    border-top-color: #DFDFDF;
+    border-right-color: #666;
+    border-bottom-color: #333;
+    border-left-color: #858585;
 }

@@ -1,2 +1,0 @@
-como deixar o background do placeholder da cor do background
-borda inferior acompanhando
