@@ -1,6 +1,6 @@
 CTRL + L
-smb://10.10.0.10
-smb://10.10.0.10:1880/php/SLM
+http://10.10.0.70:1880
+http://10.10.0.70:1880/php/RA2017208552/listatarefa.php
 Login: RA
 Domínio: UTP
 Senha: NASC
