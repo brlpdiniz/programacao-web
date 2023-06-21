@@ -1,6 +1,6 @@
 <?php
 
-$db_host = '10.10.0.70';
+$db_host = 'localhost';
 $db_nome = 'test';
 $db_user = 'aluno.php';
 $db_senha = 'php2023*';
