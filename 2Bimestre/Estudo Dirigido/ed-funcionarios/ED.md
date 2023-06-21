@@ -33,5 +33,8 @@ PRIMARY KEY (FuncionarioID)
 
 cp /home/brlpdiniz/Documentos/code/git/programacao-web/2Bimestre/"Estudo Dirigido"/ed-funcionarios/teste-ed.php /opt/lampp/htdocs/exemplos/
 
+## Rodar o xampp
+sudo /opt/lampp/manager-linux-x64.run
+
 <!--https://localhost/exemplos/-->   <!--/opt/lampp/htdocs/-->
 <!--https://localhost/phpmyadmin/ -->
