@@ -39,18 +39,20 @@ $conexao = new PDO("mysql:host=$db_host;dbname=$db_nome;charset=utf8", $db_user,
 $query = $conexao->prepare('SELECT * FROM tarefas');
 $query->execute();
 ?>
-<table class="table">
-<thead>
-<th scope="col">Descricao</th>
-<th scope="col">Completa</th>
-<th scope="col"></th>
-<th scope="col"></th>
-</thead>
+    <table class="table">
+    <thead>
+    <th scope="col">Descricao</th>
+    <th scope="col">Completa</th>
+    <th scope="col"></th>
+    <th scope="col"></th>
+    </thead>
+
 <?php
-while ($linha = $query->fetch(PDO::FETCH_ASSOC)) {
-echo '<TR><TD>'.$linha['Descricao'].'</TD><TD>'.$linha['Completa'].'</TD><TD><a href="./apagatarefa.php?TarefaID='.$linha['TarefaID'].'">apaga</a></TD>'.'<TD><a href="./atualizatarefa.php?TarefaID='.$linha['TarefaID'].'">atualiza</a><TD>'.'</TR>';
-}
+    while ($linha = $query->fetch(PDO::FETCH_ASSOC)) {
+    echo '<TR><TD>'.$linha['Descricao'].'</TD><TD>'.$linha['Completa'].'</TD><TD><a href="./apagatarefa.php?TarefaID='.$linha['TarefaID'].'">apaga</a></TD>'.'<TD><a href="./atualizatarefa.php?TarefaID='.$linha['TarefaID'].'">atualiza</a><TD>'.'</TR>';
+    }
 ?>
+
 </TABLE>
 <a class="btn btn-primary" href="./inseretarefa.html" role="button">Nova tarefa.</a>
 </body>
