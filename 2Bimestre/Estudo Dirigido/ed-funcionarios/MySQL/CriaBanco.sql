@@ -1,4 +1,3 @@
-
 USE 'test' ;
 CREATE TABLE Funcionarios (
     FuncionarioID int NOT NULL AUTO_INCREMENT,
