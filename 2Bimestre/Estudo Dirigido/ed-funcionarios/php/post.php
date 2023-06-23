@@ -9,16 +9,12 @@
     //Insert.
     if(isset($_POST['nome'])){
         $sql = $conexao->prepare("INSERT INTO funcionarios VALUES (null,?,?,?,?,?)");
-        $sql->execute(array($_POST['nome'],$_POST['sobrenome'],$_POST['cpf'],$_POST['setor'],$_POST['tipo']));
+        $sql->execute(array($_POST['nome'],$_POST['sobrenome'],$_POST['CPF'],$_POST['Setor'],$_POST['TIPO']));
         echo 'inserido com sucesso!';
-    }
-?>
+        header("Location: ../index/ListaFuncionarios.php");
+    };
 
-<form method="post">
-    <input type="text" name="nome">
-    <input type="text" name="sobrenome">
-    <input type="text" name="cpf">
-    <input type="text" name="setor">
-    <input type="text" name="tipo">
-    <input type="submit" value="Enviar">
-</form>
+    // foreach ($_POST as $param_name => $param_val) {
+    //     echo "Param: $param_name; Value: $param_val<br />\n";
+    // }
+?>

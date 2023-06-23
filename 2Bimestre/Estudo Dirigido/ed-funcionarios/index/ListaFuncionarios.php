@@ -31,7 +31,7 @@
 			<br>
 		</div>
 		<div class="centerGPD2">
-            <table class="table">
+            <table class="fixed_headers">
                 <thead>
                     <th scope="col">ID</th>
                     <th scope="col">Nome</th>
